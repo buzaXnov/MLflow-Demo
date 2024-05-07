@@ -1,0 +1,15 @@
+artifact_uri: file:///home/filip/Documents/mlfow-test/mlruns/0/caf3eaf685bc4ff8ad3c92bb4721e544/artifacts
+end_time: 1714941370728
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: caf3eaf685bc4ff8ad3c92bb4721e544
+run_name: salty-squid-127
+run_uuid: caf3eaf685bc4ff8ad3c92bb4721e544
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714941369160
+status: 3
+tags: []
+user_id: filip
