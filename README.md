@@ -48,13 +48,14 @@ python3 -m venv .venv
 
 source .venv/bin/activate
 
+# To prevent the No module named 'pkg_resources' error (missing package)
+pip install setuptools
+
 pip install mlflow
 
 pip install awscli
 
 pip install boto3
-
-pip shell
 
 # Then set aws credentials
 aws configure
@@ -64,5 +65,5 @@ mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflow-bucket-filip
 # open Public IPv4 DNS to the port 5000
 
 # set uri in your local terminal and in your code
-export MLFLOW_TRACKING_URI=[LINK]
+export MLFLOW_TRACKING_URI=http://ec2-54-227-42-110.compute-1.amazonaws.com:5000/
 ```
